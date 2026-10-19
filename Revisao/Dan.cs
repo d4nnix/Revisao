@@ -11,6 +11,10 @@ namespace Revisao
         string nome="Dan";
 
         List<string> habilidades;
+        string hab1;
+        string hab2;
+        string hab3;
+        string hab4;
         int idade;
 
 
