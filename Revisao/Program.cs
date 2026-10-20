@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Revisao;
+
+Dan hab = new Dan();
+hab.nome = "Dan";
+hab.habilidades = new List<string>() {"Correr", "autoconhecimento"};
+
