@@ -11,10 +11,18 @@ namespace Revisao
     public string nome;
 
         public List<string> habilidades;
-        string hab1;
+        public string habs;
       
         int idade;
 
-
+        public void ExibirDados()
+        {
+            Console.WriteLine($"Me chamo: {nome}");
+            Console.WriteLine("Minhas hablidades são:");
+            foreach (var item in habilidades) 
+            {
+                Console.Write($"-{habilidades}");
+            }
+        }
     }
 }
