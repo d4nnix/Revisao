@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace Revisao
 {
-    internal class Dan
+   public class Dan
     {
-        string nome="Dan";
+    public string nome;
 
-        List<string> habilidades;
+        public List<string> habilidades;
         string hab1;
-        string hab2;
-        string hab3;
-        string hab4;
+      
         int idade;
 
 
