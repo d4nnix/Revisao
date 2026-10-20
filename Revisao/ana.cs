@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Revisao
 {
-    class ana
+    public class ana
     {
-        string nome;
-        List<string> habilidades;
+       public string nome;
+       public List<string> habilidades;
         int idade;
-        public int id { get; set; }
+    
 
        
     }

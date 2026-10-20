@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Revisao;
+
+using System.ComponentModel;
+
+ana habilidade = new ana();
+habilidade.nome = "Augusto";
+habilidade.habilidades = new List<string>() { "andar de cavalo", "jogar peteca" };
+
+
+
