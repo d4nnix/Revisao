@@ -9,10 +9,10 @@ namespace Revisao
     public class ana
     {
        public string nome;
-       public List<string> habilidades;
+       public  List<string> habilidades;
         int idade;
     
 
-       
+        
     }
 }
