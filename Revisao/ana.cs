@@ -9,8 +9,8 @@ namespace Revisao
     public class ana
     {
        public string nome;
-       public  List<string> habsana = new List<string>;
-        int idade;
+       public  List<string> habsana = new List<string>();
+       
     
 
         
