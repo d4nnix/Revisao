@@ -10,8 +10,8 @@ namespace Revisao
     {
     public string nome;
 
-        public List<string> habilidades;
-        public string habs;
+        public List<string> habilidades = new List<string>();
+
       
         int idade;
 
@@ -19,9 +19,9 @@ namespace Revisao
         {
             Console.WriteLine($"Me chamo: {nome}");
             Console.WriteLine("Minhas hablidades são:");
-            foreach (var item in habilidades) 
+            foreach (string item in habilidades) 
             {
-                Console.Write($"-{habilidades}");
+                Console.WriteLine($"-{item}");
             }
         }
     }
